@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Log Query Interface</title>
+</head>
+<body>
+  <h1>Log Query Interface</h1>
+
+  <!-- Form for log queries -->
+  <form id="queryForm">
+    <label for="searchInput">Search:</label>
+    <input type="text" id="searchInput" name="searchInput" placeholder="Enter search terms">
+
+    <!-- Add input fields for date range and regex -->
+    <label for="startDate">Start Date:</label>
+    <input type="date" id="startDate" name="startDate">
+    
+    <label for="endDate">End Date:</label>
+    <input type="date" id="endDate" name="endDate">
+
+    <label for="useRegex">Use Regular Expressions:</label>
+    <input type="checkbox" id="useRegex" name="useRegex">
+
+    <button type="button" onclick="submitQuery()">Submit</button>
+  </form>
+
+  <!-- Display search results -->
+  <div id="results"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
