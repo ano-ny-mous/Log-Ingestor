@@ -7,7 +7,7 @@ The Log Ingestor is a Node.js application that allows you to receive and search 
 1. **Clone the repository:**
 
    ```bash
-   https://github.com/dyte-submissions/november-2023-hiring-ano-ny-mous.git
+   https://github.com/ano-ny-mous/Log-Ingestor.git
 
 2. **Install dependencies:**
 
